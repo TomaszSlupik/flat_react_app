@@ -7,7 +7,7 @@ function Search () {
             <div className="box">
                 <div className="title">Znajdź wymarzone <span className="colorFlat">mieszkanie</span> dla siebie</div>
                 <div className="boxsearch">
-                    <input type="text"
+                    <input className="inputsearch" type="text"
                            placeholder="szukaj" />
                     <button className="btn">Szukaj</button>
                 </div>

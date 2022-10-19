@@ -26,6 +26,38 @@
     margin-left: 1em;
 }
 
+.inputsearch {
+    border-radius: 16px;
+    width: 230px;
+    height: 30px;
+    border: 2px solid gold;
+
+}
+
+.inputsearch:hover {
+    border: 2px solid black;
+    transition: all .5s;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 2px solid white;    
+    transition: all .5s;
+
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+
+}
+
 
 @media (max-width: 568px) {
     .title {
